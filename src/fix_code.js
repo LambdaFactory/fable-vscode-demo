@@ -1,0 +1,1 @@
+require("fs").appendFile("out/extension.js", "\nexports.activate = exports.default.activate")
