@@ -1,0 +1,12 @@
+{
+	"version": "0.1.0",
+	"command": "npm",
+	"isShellCommand": true,
+	"tasks": [
+		{
+			"taskName": "run",
+			"isBuildCommand": true,
+            "args": [ "build" ]
+		}
+	]
+}

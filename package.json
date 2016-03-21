@@ -1,0 +1,35 @@
+{
+  "name": "fabledemo",
+  "displayName": "fabledemo",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "Chris",
+  "engines": {
+    "vscode": "^0.10.10"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.sayHello"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.sayHello",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "fable src/extension.fsx --outDir ../out -m --env node",
+    "postbuild": "node src/fix_code.js"
+  },
+  "devDependencies": {
+    "fable-compiler": "^0.1.1",
+    "fable-import": "0.0.3",
+    "fable-import-vscode": "0.0.1",
+    "vscode": "^0.11.0"
+  }
+}
