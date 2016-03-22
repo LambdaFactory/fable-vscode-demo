@@ -26,7 +26,7 @@
     "build": "fable src/extension.fsx --outDir ../out -m --env node"
   },
   "devDependencies": {
-    "fable-compiler": "^0.1.1",
+    "fable-compiler": "^0.1.2",
     "fable-import": "0.0.3",
     "fable-import-vscode": "0.0.1",
     "vscode": "^0.11.0"
