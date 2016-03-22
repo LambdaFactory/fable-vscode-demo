@@ -23,8 +23,7 @@
     ]
   },
   "scripts": {
-    "build": "fable src/extension.fsx --outDir ../out -m --env node",
-    "postbuild": "node src/fix_code.js"
+    "build": "fable src/extension.fsx --outDir ../out -m --env node"
   },
   "devDependencies": {
     "fable-compiler": "^0.1.1",

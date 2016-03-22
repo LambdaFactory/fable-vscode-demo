@@ -10,7 +10,8 @@
 			"args": ["--extensionDevelopmentPath=${workspaceRoot}" ],
 			"stopOnEntry": true,
             "preLaunchTask": "run",
-            "sourceMaps": true
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/out"
 		}
 	]
 }

@@ -11,3 +11,5 @@ let activate (context : vscode.ExtensionContext) =
     vscode.commands.Globals.registerCommand("extension.sayHello", fun _ ->
         vscode.window.Globals.showInformationMessage "Hello world!" |> unbox )
     |> context.subscriptions.Add
+    
+Node.Globals.exports?activate <- activate
