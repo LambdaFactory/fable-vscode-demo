@@ -23,10 +23,11 @@
     ]
   },
   "scripts": {
-    "build": "fable src/extension.fsx --outDir ../out -m --env node"
+    "build": "fable src/extension.fsx --outDir out -m --env node --babelPlugins add-module-exports"
   },
   "devDependencies": {
-    "fable-compiler": "^0.1.2",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "fable-compiler": "^0.1.3",
     "fable-import": "0.0.3",
     "fable-import-vscode": "0.0.1",
     "vscode": "^0.11.0"
