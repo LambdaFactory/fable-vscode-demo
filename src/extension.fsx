@@ -12,4 +12,3 @@ let activate (context : vscode.ExtensionContext) =
         vscode.window.Globals.showInformationMessage "Hello world!" |> unbox )
     |> context.subscriptions.Add
     
-Node.Globals.exports?activate <- activate
