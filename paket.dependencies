@@ -1,0 +1,17 @@
+source https://www.nuget.org/api/v2
+storage:none
+
+clitool dotnet-fable
+nuget Fable.Core
+nuget Fable.Import.Node
+nuget Fable.Import.Browser
+nuget FSharp.Core
+
+
+github ionide/ionide-vscode-helpers src/Fable.Import.VSCode.fs
+github ionide/ionide-vscode-helpers src/Helpers.fs
+
+group build
+    source https://www.nuget.org/api/v2
+
+    nuget Fake

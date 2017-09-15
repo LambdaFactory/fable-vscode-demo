@@ -1,0 +1,23 @@
+{
+    "name": "fabledemo",
+    "publisher": "fabledemo",
+    "version": "0.0.1",
+    "engines": {
+      "vscode": "^0.10.10"
+    },
+    "categories": [
+      "Other"
+    ],
+    "activationEvents": [
+      "onCommand:extension.sayHello"
+    ],
+    "main": "./extension",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.sayHello",
+          "title": "Hello World"
+        }
+      ]
+    }
+  }
