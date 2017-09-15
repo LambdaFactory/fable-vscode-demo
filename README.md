@@ -1,13 +1,15 @@
-# README
-## This is the README for your extension "fabledemo" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+The sample for building VSCode extensions using F# and Fable.
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+### Requirements
+ * VSCode
+ * Node.js
+ * .Net Framework or mono
+ * `dotnet` 2.0
+ * Yarn
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### How to build
 
-** Enjoy!**
+1. `yarn install`
+2. `cd src && dotnet restore`
+3. `cd .. && code .`
+4. Press `F5` for single build, or run `Watch` task and `Launch Only` debug configuration for watch mode compilation.
