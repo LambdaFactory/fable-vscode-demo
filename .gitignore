@@ -59,6 +59,7 @@ temp
 .fake
 .vs
 *.js
+!webpack.config.js
 *.js.map
 .orig
 release.cmd
