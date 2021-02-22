@@ -57,6 +57,8 @@ release_test/bin
 
 temp
 .fake
+.ionide
+.paket
 .vs
 *.js
 !webpack.config.js

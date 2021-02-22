@@ -1,12 +1,12 @@
 module VSCodeFable
 
-open Fable.Core
 open Fable.Import
-open Fable.Import.vscode
 
 let activate (context : vscode.ExtensionContext) =
     printfn "Hello world"
 
-    vscode.commands.registerCommand("extension.sayHello", fun _ ->
-        vscode.window.showInformationMessage "Hello world!" |> unbox )
+    let action : obj -> obj = fun _ ->
+        vscode.window.showInformationMessage("Hello world!", Array.empty<string>)
+
+    vscode.commands.registerCommand("extension.sayHello", action)
     |> context.subscriptions.Add
