@@ -1,9 +1,9 @@
-dotnet-fable
+Fable.Core
+Fable.Promise
+Fable.Node
+Fable.Browser.Dom
 
 FSharp.Core
-Fable.Core
-Fable.Import.Node
-Fable.Import.Browser
 
 File: Fable.Import.VSCode.fs
 File: Helpers.fs

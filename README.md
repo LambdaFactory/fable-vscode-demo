@@ -3,8 +3,7 @@ The sample for building VSCode extensions using F# and Fable.
 ### Requirements
  * VSCode
  * Node.js
- * .Net Framework or mono
- * `dotnet` 2.0
+ * `dotnet` 5.0
  * Yarn
 
 ### How to build

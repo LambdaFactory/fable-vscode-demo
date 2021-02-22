@@ -1,15 +1,25 @@
 {
-  "scripts": {
-    "build": "webpack"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "fable-loader": "^1.1.2",
-    "vscode": "^1.1.5",
-    "webpack": "^3.6.0",
-    "webpack-node-externals": "^1.6.0"
+    "scripts": {},
+    "dependencies": {
+      "htmlparser2": "^4.1.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.11.6",
+      "@babel/plugin-transform-runtime": "^7.11.5",
+      "@babel/preset-env": "^7.11.5",
+      "@types/showdown": "^1.9.3",
+      "@types/vscode": "^1.52.0",
+      "@types/ws": "^7.2.6",
+      "axios": "^0.20.0",
+      "babel-loader": "^8.1.0",
+      "mocha": "^8.1.3",
+      "showdown": "^1.9.1",
+      "toml": "^3.0.0",
+      "vscode-debugadapter": "^1.44.0",
+      "vscode-languageclient": "^7.0.0",
+      "webpack": "^4.44.1",
+      "webpack-cli": "^3.3.12",
+      "ws": "^7.3.1",
+      "xhr2": "^0.2.0"
+    }
   }
-}
